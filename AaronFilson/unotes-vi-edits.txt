@@ -1,0 +1,13 @@
+git version 1.7.10.4
+
+I have learned that I very much enjoy the pipe command '>'. Also, I am reminded of how I type slowly on a laptop keyboard.
+
+Despite the age of this laptop, it is able to run Debian fairly well for these simple tasks of getting back into the flow of working on the command line and Linux.  I am looking forward to getting to know the Mac command line or terminal.
+
+Next on my Linux agenda is to setup a hard drive for a Ubuntu install on the desktop machine.
+
+Getting the Sublime Text 2 installed was complicated by differences from Ubuntu to Debian, and I wonder how it will go on a stable Ubuntu. I am sure that a real keyboard and a monitor 4 times the size will help regardless.
+
+Also, find works better if you give it commands it understands, like -name.
+
+

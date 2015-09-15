@@ -1,0 +1,39 @@
+alias.c=commit -m
+alias.st=status --short --branch
+alias.ci=commit --verbose
+alias.ca=commit --amend --reuse-message=HEAD
+alias.co=checkout
+alias.br=branch
+alias.df=diff HEAD
+alias.ll=log --pretty=format:"%Cred%h %>(11,trunc)%Cgreen%cr %<(10,trunc)%Cblue%cn%C(yellow)%d %Creset%s"
+alias.la=log --patch --stat --pretty=format:"%C(bold red)%h %Cgreen%cr %Cblue%cn%C(yellow)%d %Creset%s"
+alias.dfs=diff --staged
+alias.rmb=!sh -c "git branch -D $1 && git push origin :$1" -
+color.branch.current=yellow reverse
+color.branch.local=yellow
+color.branch.remote=green
+color.branch.upstream=cyan
+color.diff.frag=magenta bold
+color.diff.func=normal bold
+color.diff.meta=yellow bold
+color.diff.new=green bold
+color.diff.old=red bold
+color.status.added=green bold
+color.status.branch=yellow
+color.status.changed=yellow bold
+color.status.untracked=cyan bold
+user.name=Aaron Filson
+user.email=aaronfilson@gmail.com
+credential.helper=cache --timeout=3600
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+remote.origin.url=https://github.com/AaronFilson/unix-and-git-workshop.git
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+
+I do enjoy having a simple way to pipe info into a new file!
+
+I have learned simple aspects of git and GitHub, such as clone, branch, and fork. I am sure to learn much more as I continue to use this new (to me) tool.
